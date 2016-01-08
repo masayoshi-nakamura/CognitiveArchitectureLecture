@@ -38,6 +38,7 @@ https://github.com/wbap/BriCA1.git
  - Nengo 2.0
 ```bash
  pip install nengo
+ pip install nengo_gui
 ```
 
 ## Simple Usage
