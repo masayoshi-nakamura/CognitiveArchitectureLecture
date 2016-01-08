@@ -54,6 +54,3 @@ Open new ternminal,
  python brica_agent.py
 ```
 
-## License
-
-Apache License 2.0 (see `LICENSE` file).
