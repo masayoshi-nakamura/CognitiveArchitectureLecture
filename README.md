@@ -1,4 +1,4 @@
-# a prototype of simple BriCA agent with simulation environment
+# A prototype of simple BriCA agent with simulation environment
 
 ## Requirements
 Minimum requirements:
@@ -13,7 +13,14 @@ Minimum requirements:
 
  - [BriCA Language](https://github.com/rondelion/brical.git)
 
+ - Nengo 2.0
+
+
 ## Installation (Mac, Ubuntu)
+
+ - Gazebo
+[Mac]http://gazebosim.org/tutorials?tut=install_on_mac&
+[Ubuntu]http://gazebosim.org/tutorials?tut=install_ubuntu&
 
  - pygazebo
 ```bash
@@ -27,6 +34,10 @@ Minimum requirements:
  - BriCA V1
 https://github.com/wbap/BriCA1.git
 
+ - Nengo 2.0
+```bash
+ pip install nengo
+```
 
 ## Simple Usage
 
