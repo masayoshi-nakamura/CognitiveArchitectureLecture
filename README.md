@@ -19,8 +19,9 @@ Minimum requirements:
 ## Installation (Mac, Ubuntu)
 
  - Gazebo
-[Mac]http://gazebosim.org/tutorials?tut=install_on_mac&
-[Ubuntu]http://gazebosim.org/tutorials?tut=install_ubuntu&
+ 
+[Mac](http://gazebosim.org/tutorials?tut=install_on_mac&),
+[Ubuntu](http://gazebosim.org/tutorials?tut=install_ubuntu&)
 
  - pygazebo
 ```bash
