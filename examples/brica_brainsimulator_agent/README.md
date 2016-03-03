@@ -1,5 +1,5 @@
 
-# Brain Simulator controls TurtleBot in Gazebo Environment Demo
+# Brain Simulator controls TurtleBot in Gazebo Environment Demo using socket connection
 
 GoodAI's Brain Simulator V0.4 controls TurtleBot on Gazebo Environment.
 
