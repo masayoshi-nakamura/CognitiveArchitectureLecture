@@ -50,14 +50,6 @@ RUN cd ~/ \
 
 ENV GAZEBO_MODEL_PATH $HOME/CognitiveArchitectureLecture/models:$GAZEBO_MODEL_PATH
 
-# BriCA
-RUN cd ~/ \
-    && git clone https://github.com/wbap/BriCA1.git \    
-    && cd BriCA1 \
-    && git checkout 3526b73 \
-    && cd python \
-    && python setup.py install
-
 # pygazebo (Do not use version 3.0.0-2014.1)
 RUN cd ~/ \
     && git clone https://github.com/jpieper/pygazebo.git \
@@ -65,5 +57,9 @@ RUN cd ~/ \
     && git checkout 3eaac84 \
     && pip install six --upgrade \
     && python setup.py install
+
+# Nengo
+RUN pip install nengo
+RUN pip install nengo_gui
 
 CMD [ "/bin/bash" ]
