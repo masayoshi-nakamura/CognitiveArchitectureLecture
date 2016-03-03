@@ -33,7 +33,7 @@ def execute(node):
     # node.blackboard is a dictionary shared between nodes.
         
     TCP_IP = "192.168.44.42"
-    TCP_PORT = 8080
+    TCP_PORT = 8082
     BUFFER_SIZE = 1024
     st = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     st.connect((TCP_IP, TCP_PORT))
@@ -95,7 +95,7 @@ def execute(node):
     node.output[0][1] = node.input[0][1]
     
     TCP_IP = "192.168.44.42"
-    TCP_PORT = 8081
+    TCP_PORT = 8083
     BUFFER_SIZE = 1024
     st = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     st.connect((TCP_IP, TCP_PORT))
