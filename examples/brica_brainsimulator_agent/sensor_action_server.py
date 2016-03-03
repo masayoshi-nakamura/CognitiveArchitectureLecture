@@ -2,8 +2,8 @@ import thread
 import pickle
 import SocketServer
 
-SENSOR_SERVER_PORT = 8080
-ACTION_SERVER_PORT = 8081
+SENSOR_SERVER_PORT = 8082
+ACTION_SERVER_PORT = 8083
 
 def run_sensor_server(sensor_comp):
     class TCPSensorHandler(SocketServer.BaseRequestHandler):
