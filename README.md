@@ -9,8 +9,8 @@
  - using Brain Simulator: [Brain Simulator and BriCA](examples/brica_brainsimulator_agent)
 
 -------------
-# Installation (Mac, Ubuntu)
-## Requirements
+## Installation (Mac, Ubuntu)
+### Requirements
 Minimum requirements:
 
  - Python 2.7
@@ -26,7 +26,7 @@ Minimum requirements:
  - Nengo 2.0
 
 
-## Installation (Mac, Ubuntu)
+### Installation (Mac, Ubuntu)
 
  - pygazebo
 ```bash
