@@ -3,7 +3,7 @@
 
 GoodAI's Brain Simulator V0.4 controls TurtleBot on Gazebo Environment.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TRSP8eudr8s" frameborder="0" allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/TRSP8eudr8s/0.jpg)](http://www.youtube.com/watch?v=TRSP8eudr8s)
 
 Tcp connection nodes in Brain Simulator communicate with python server and this server controls TurtleBot via PyGazebo.
 
