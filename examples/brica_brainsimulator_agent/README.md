@@ -46,5 +46,5 @@ python brica_brainsimulator_agent.py
 
 
 ### Windows 
-Install Brain Simulator and load brica_sample_agent.brain. Click simulation start button.
+Install Brain Simulator and load brica_sample_agent.brain. Check Ubuntu PC's IP address and edit tcp connection nodes(sensor and action node). Then, click simulation start button.
  
