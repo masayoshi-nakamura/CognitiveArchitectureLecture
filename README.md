@@ -6,7 +6,7 @@
 
  - using BriCA: [BriCA-Gazebo docker](/docker/brica_gazebo)
  - using Nengo: [Nengo-Gazebo docker](/docker/nengo_gazebo)
- - using Brain Simulator: [Brain Simulator and BriCA](examples/brica_brainsimulator_agent)
+ - using Brain Simulator: [Brain Simulator and BriCA](examples/brainsimulator_agent)
 
 -------------
 ## Installation (Mac, Ubuntu)
