@@ -33,13 +33,13 @@ class HippocampusComponent(brica1.Component):
             return (0, 0)
 
         areaIdX = 0
-        if x < maze_width*0.5:
+        if x < -maze_width*0.5:
             areaIdX = -1
         if x > maze_width*0.5:
             areaIdX = 1
 
         areaIdY = 0
-        if y < maze_width*0.5:
+        if y < -maze_width*0.5:
             areaIdY = -1
         if y > maze_width*0.5:
             areaIdY = 1
