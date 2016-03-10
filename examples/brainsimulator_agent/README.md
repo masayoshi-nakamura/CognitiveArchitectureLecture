@@ -8,7 +8,7 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 Tcp connection nodes in Brain Simulator communicate with python server and this server controls TurtleBot via PyGazebo.
 
 This prototype modules are red box and Brain Simulator's nodes(Sensor and Motor).
-<img width="796" alt="2016-03-08 13 12 15" src="https://cloud.githubusercontent.com/assets/1708549/13591810/80346f62-e52f-11e5-8cf7-6b2b6760de76.png">
+<img width="796" alt="system" src=""https://cloud.githubusercontent.com/assets/1708549/13660986/4b3ea904-e6d2-11e5-8f5a-c46e00819211.png">
 
 # Quickstart
 ## Run
