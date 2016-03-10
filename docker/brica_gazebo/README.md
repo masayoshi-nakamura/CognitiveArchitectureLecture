@@ -40,7 +40,7 @@ python brica_agent.py
 
 
 
-If you use iPython notebook and want to create your code
+If you want to create your code, use [IPython Jupyter](http://ipython.org/):
 
 ```
 # in docker container
