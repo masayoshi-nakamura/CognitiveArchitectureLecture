@@ -65,8 +65,8 @@ python brainsimulator_agent.py
 ### Brain Simulator Machine(Windows) 
 [Install Brain Simulator](http://www.goodai.com/#!brain-simulator/c81c).
 
-load CognitiveArchitectureLecture/examples/brainsimulator_agent/brica_sample_agent.brain.
-[brainsimulator](https://cloud.githubusercontent.com/assets/1708549/13658146/c3beda0e-e6b7-11e5-8030-2c95be61fea5.png)
+Load CognitiveArchitectureLecture/examples/brainsimulator_agent/brica_sample_agent.brain.
+<img width="796" src="https://cloud.githubusercontent.com/assets/1708549/13658146/c3beda0e-e6b7-11e5-8030-2c95be61fea5.png">
 
 Double click Sensor node and change TCP_IP variable to your Gazebo Machine's IP and
 double click Motor  node and change TCP_IP variable to your Gazebo Machine's IP.   
