@@ -1,28 +1,39 @@
-# Quickstart
 
-Assuming you have docker installed, run this to start brica-gazebo experiment environment. Docker will build container and run.
+
+# Quickstart
+[Install Docker](https://docs.docker.com/engine/installation/).
+
+
+build container:
 
 ```
 git clone https://github.com/masayoshi-nakamura/CognitiveArchitectureLecture.git
 cd CognitiveArchitectureLecture/docker/brica_gazebo
 docker build --tag=brica-gazebo .
+```
+
+run docker container:
+
+```
 docker run -it -p 8888:8888 -p 8080:8080 -p 7681:7681 brica-gazebo
 ```
 
-start gazebo server and gazebo web server,
+After that, you are in docker container. Start gazebo server and gazebo web server:
 
 ```
+# in docker container
 /root/gzweb/start_gzweb.sh && gzserver /root/CognitiveArchitectureLecture/worlds/maze_turtlbot.xml &
 ```
 
-You'll now be able to access http://localhost:8080/ 
+You'll now be able to access [http://localhost:8080/](http://localhost:8080/) 
 
 <img src="https://cloud.githubusercontent.com/assets/1708549/13484633/fd0aa402-e142-11e5-8b4a-cd4be83954e4.png" width=400/>
 
 
-Running a BriCA sample agent
+Run a BriCA sample agent in the container:
 
 ```
+# in docker 
 cd ~/CognitiveArchitectureLecture/examples/brica_agent 
 python brica_agent.py
 ```
@@ -32,6 +43,7 @@ python brica_agent.py
 If you use iPython notebook and want to create your code
 
 ```
+# in docker 
 cd ~/CognitiveArchitectureLecture/examples/brica_agent
 jupyter notebook --no-browser --port 8888 --ip=*
 ```
