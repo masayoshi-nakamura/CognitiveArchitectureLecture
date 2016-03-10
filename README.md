@@ -9,6 +9,6 @@
 
 ## Quickstart
 
- - using BriCA: [BriCA-Gazebo](/examples/brica_gazebo)
- - using Nengo: [Nengo-Gazebo](/examples/nengo_gazebo)
+ - using BriCA: [BriCA-Gazebo](/examples/brica_agent)
+ - using Nengo: [Nengo-Gazebo](/examples/nengo_agent)
  - using Brain Simulator: [Brain Simulator and BriCA](examples/brainsimulator_agent)
