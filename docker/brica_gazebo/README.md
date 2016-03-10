@@ -33,7 +33,7 @@ You'll now be able to access [http://localhost:8080/](http://localhost:8080/)
 Run a BriCA sample agent in the container:
 
 ```
-# in docker 
+# in docker container
 cd ~/CognitiveArchitectureLecture/examples/brica_agent 
 python brica_agent.py
 ```
@@ -43,7 +43,7 @@ python brica_agent.py
 If you use iPython notebook and want to create your code
 
 ```
-# in docker 
+# in docker container
 cd ~/CognitiveArchitectureLecture/examples/brica_agent
 jupyter notebook --no-browser --port 8888 --ip=*
 ```
