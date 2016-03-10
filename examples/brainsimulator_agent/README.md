@@ -22,9 +22,7 @@ Prepare two machines and connect same network.
   
   
 ###  Gazebo Machine(Ubuntu or Mac)
-[Install Gazebo(Ubuntu)](http://gazebosim.org/tutorials?tut=install_ubuntu).
-
-[Install Gazebo(Mac)](http://gazebosim.org/tutorials?tut=install_on_mac).
+Install Gazebo ([Ubuntu](http://gazebosim.org/tutorials?tut=install_ubuntu), [Mac](http://gazebosim.org/tutorials?tut=install_on_mac)).
 
 Install pygazebo:
 
@@ -68,9 +66,9 @@ python brainsimulator_agent.py
 Load CognitiveArchitectureLecture/examples/brainsimulator_agent/brica_sample_agent.brain.
 <img width="796" src="https://cloud.githubusercontent.com/assets/1708549/13658146/c3beda0e-e6b7-11e5-8030-2c95be61fea5.png">
 
-Double click Sensor node and change TCP_IP variable to your Gazebo Machine's IP and
-double click Motor  node and change TCP_IP variable to your Gazebo Machine's IP.   
+Double click "Sensor" node and change TCP_IP variable to your Gazebo Machine's IP and
+double click "Motor"  node and change TCP_IP variable to your Gazebo Machine's IP.   
 
-Then click start button(or F5 key), you can control TurtleBot by changing Motor_input node' slider bar.
+Then click start button(or F5 key), you can control TurtleBot by changing "Motor_input" node slider bar.
 
  
