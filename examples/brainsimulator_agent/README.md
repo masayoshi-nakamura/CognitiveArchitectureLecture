@@ -14,15 +14,17 @@ This prototype module is red box.
 ## Run
 Prepare two machines and connect same network.
 
- - Wiwndows (for Brain Simulator)
+ - Brain Simulator Machine
   - 64-bit Windows 7, 8, 8.1 or 10
   - NVIDIA CUDA-enabled graphics card
- - Ubuntu (for Gazebo)
-  - we use Ubuntu 14.04
+ - Gazebo Machine
+  - recommended Ubuntu or Mac (we used Ubuntu14.04)
   
   
-### Ubuntu 
-[Install Gazebo](http://gazebosim.org/tutorials?tut=install_ubuntu).
+###  Gazebo Machine(Ubuntu or Mac)
+[Install Gazebo(Ubuntu)](http://gazebosim.org/tutorials?tut=install_ubuntu).
+
+[Install Gazebo(Mac)](http://gazebosim.org/tutorials?tut=install_on_mac).
 
 Install pygazebo:
 
@@ -60,7 +62,15 @@ cd CognitiveArchitectureLecture/examples/brica_brainsimulator_agent/
 python brainsimulator_agent.py
 ```
 
+### Brain Simulator Machine(Windows) 
+[Install Brain Simulator](http://www.goodai.com/#!brain-simulator/c81c).
 
-### Windows 
-Install Brain Simulator and load brica_sample_agent.brain. Check Ubuntu PC's IP address and edit tcp connection nodes(sensor and action node). Then, click simulation start button.
+Load CognitiveArchitectureLecture/examples/brainsimulator_agent/brica_sample_agent.brain.
+<img width="796" src="https://cloud.githubusercontent.com/assets/1708549/13658146/c3beda0e-e6b7-11e5-8030-2c95be61fea5.png">
+
+Double click Sensor node and change TCP_IP variable to your Gazebo Machine's IP and
+double click Motor  node and change TCP_IP variable to your Gazebo Machine's IP.   
+
+Then click start button(or F5 key), you can control TurtleBot by changing Motor_input node' slider bar.
+
  
