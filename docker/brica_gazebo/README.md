@@ -51,7 +51,7 @@ cd ~/CognitiveArchitectureLecture/examples/brica_agent
 jupyter notebook --no-browser --port 8888 --ip=*
 ```
 
-You'll now be able to access http://localhost:8888/ 
+You'll now be able to access http://[your docker IP]:8888/ 
 
 
 <img src="https://cloud.githubusercontent.com/assets/1708549/13484604/d72e9cf2-e142-11e5-8ac9-e4eb9e8978c1.png" width=400/>
