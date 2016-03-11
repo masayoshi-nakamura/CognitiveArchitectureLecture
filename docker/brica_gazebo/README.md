@@ -26,8 +26,10 @@ After that, you are in docker container. Start gazebo server and gazebo web serv
 /root/gzweb/start_gzweb.sh && gzserver /root/CognitiveArchitectureLecture/worlds/maze_turtlbot.xml &
 ```
 
-You'll now be able to access [http://localhost:8080/](http://localhost:8080/) 
-
+You'll now be able to access http://[your docker IP]:8080. 
+ - Ubuntu: [http://localhost:8080/](http://localhost:8080/)
+ - Mac and using "Docker Quickstart Terminal": access to IP displayed when "Docker Quickstart Terminal" started.
+ 
 <img src="https://cloud.githubusercontent.com/assets/1708549/13484633/fd0aa402-e142-11e5-8b4a-cd4be83954e4.png" width=400/>
 
 
