@@ -3,6 +3,7 @@
 # Quickstart
 [Install Docker](https://docs.docker.com/engine/installation/).
 
+If you are using Mac, find the "Docker Quickstart Terminal" and double-click to launch it.
 
 build container:
 
